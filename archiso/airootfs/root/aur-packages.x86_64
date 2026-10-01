@@ -30,6 +30,9 @@ spotify
 ventoy-bin
 vesktop-bin
 
+# Camera relay for MIPI webcams (pairs with v4l2loopback-dkms)
+v4l2-relayd
+
 # Utilities
 downgrade
 hyprpier-git

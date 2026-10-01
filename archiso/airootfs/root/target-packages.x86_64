@@ -61,6 +61,18 @@ brightnessctl
 power-profiles-daemon
 
 # =============================================================================
+# Camera (MIPI webcams, e.g. Intel IPU7; relayed to a v4l2loopback device)
+# =============================================================================
+# Installed everywhere for the author's IPU7 laptop; the dotfiles only wire
+# them up on matching hardware. Costs one extra DKMS build per kernel update.
+libcamera
+libcamera-ipa
+gst-plugin-libcamera
+gst-plugins-good
+v4l2loopback-dkms
+v4l-utils
+
+# =============================================================================
 # Audio
 # =============================================================================
 pipewire
