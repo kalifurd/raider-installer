@@ -178,3 +178,14 @@ imagemagick
 jq
 unzip
 wget
+# =============================================================================
+# Desktop Environment - KDE Plasma (second session at login)
+# =============================================================================
+plasma-desktop
+kscreen
+powerdevil
+plasma-pa
+xdg-desktop-portal-kde
+konsole
+dolphin
+kate
